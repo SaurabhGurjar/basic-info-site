@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Information site</title>
+    <style>
+      #container {
+        padding: 0 80px;
+        h2 {
+          text-align: center;
+          color: #333;
+        }
+        p {
+          line-height: 1.6;
+          color: #555;
+        }
+      }
+      ul {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: 600;
+        }
+        a:hover {
+          border-bottom: 1px solid black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="width: 100%; text-align: center; padding: 10px 0">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact-me">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="container">
+      <div>
+        <h1>What is nodejs?</h1>
+        <p>Node.js is asynchronous event driven Javascript runtime.</p>
+        <p>Build on Chrome's V8 Javascript Engine</p>
+        <p>
+          It allow developer to run Javascript code outside the browser, making
+          it ideal for building scalable, high-performance applications,
+          especially for real-time and event-driven tasks.
+        </p>
+        <p>
+          Node.js is known for its non-blocking, asynchronous architecture,
+          which handles many operations concurrently without waiting for each
+          one to finish, making it efficient for handling large numbers of
+          requests. It's widely used for web servers, APIs, microservices, and
+          more.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

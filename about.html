@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Information site</title>
+    <style>
+      #container {
+        padding: 0 80px;
+
+        h2 {
+          text-align: center;
+          color: #333;
+        }
+        p {
+          line-height: 1.6;
+          color: #555;
+        }
+      }
+      ul {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        a {
+          text-decoration: none;
+          color: black;
+          font-weight: 600;
+        }
+        a:hover {
+          border-bottom: 1px solid black;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="width: 100%; text-align: center; padding: 10px 0">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact-me">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="container">
+      <h1>About</h1>
+      <p>
+        Node.js is a JavaScript runtime that enables developers to execute
+        JavaScript code on the server side, rather than in a web browser.
+      </p>
+      <p>
+        It was introduced in 2009 by Ryan Dahl, revolutionizing web development
+        by allowing JavaScript to be used for full-stack development.
+      </p>
+      <p>
+        Node.js is built on Google’s V8 engine, known for its speed and
+        efficiency.
+      </p>
+      <p>
+        It follows an event-driven, non-blocking I/O model, which makes it
+        lightweight and perfect for building scalable network applications like
+        web servers, APIs, and microservices.
+      </p>
+      <p>
+        With a large ecosystem of libraries and tools available via npm (Node
+        Package Manager), Node.js simplifies building server-side applications
+        and can handle many connections simultaneously.
+      </p>
+      <p>
+        It's especially popular for real-time applications like chat apps,
+        live-streaming services, and collaborative tools.
+      </p>
+    </div>
+  </body>
+</html>
